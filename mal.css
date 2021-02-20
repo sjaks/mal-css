@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  font-family: 'Inconsolata', monospace !important;
+}
+
 body.ownlist {
   background: #111111;
 }
@@ -23,6 +29,7 @@ a:hover {
   width: 100%;
   padding-bottom: 50px;
   padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .header-title {
@@ -36,11 +43,11 @@ a:hover {
 
 .status-menu-container .status-menu .status-button, .status-menu-container .status-menu .status-button.on {
   color: #eeeeee;
+  font-weight: normal;
 }
 
 .status-menu-container .status-menu .status-button:after {
-  background-color: #268bd2;
-  height: 1px;
+  display: none;
 }
 
 .status-menu-container, .list-container {
@@ -82,6 +89,10 @@ a:hover {
   background: none;
 }
 
+.list-table .list-table-data .data.title .link {
+  font-weight: normal;
+}
+
 .score-label {
   color: #AC130D;
 }
@@ -114,3 +125,15 @@ a:hover {
   color: #ffffff !important;
 }
 
+.status-menu-container .status-menu .status-button {
+  position: relative;
+  display: block;
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 15px;
+  color: #2bbc8a !important;
+  float: left;
+  border: 1px solid #2bbc8a;
+}
