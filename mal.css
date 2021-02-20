@@ -1,0 +1,116 @@
+body.ownlist {
+  background: #111111;
+}
+
+a, a:visited {
+  color: #2bbc8a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer-block {
+  background: none;
+}
+
+#copyright {
+  color: #ffffff;
+}
+
+.header {
+  background: #161719;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.header-title {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.header .header-menu .btn-menu {
+  display: none;
+}
+
+.status-menu-container .status-menu .status-button, .status-menu-container .status-menu .status-button.on {
+  color: #eeeeee;
+}
+
+.status-menu-container .status-menu .status-button:after {
+  background-color: #268bd2;
+  height: 1px;
+}
+
+.status-menu-container, .list-container {
+  background: #111111;
+  border: none;
+}
+
+.list-unit .list-status-title, .list-table {
+  background: none;
+  border: none;
+}
+
+.list-table .list-table-header .header-title .link {
+  color: #eeeeee !important;
+}
+
+.list-unit .list-status-title .text {
+  text-align: left;
+}
+
+.list-table .list-table-data .data {
+  border: 1px #292929 dotted;
+}
+
+.list-table .list-table-data .number {
+  color: #ffffff;
+}
+
+.list-table .list-table-data .data.image .image {
+  border: none;
+}
+
+.list-table > tbody:nth-of-type(2n+1) {
+  background: none;
+}
+
+.list-table .list-table-header .header-title {
+  border: none;
+  background: none;
+}
+
+.score-label {
+  color: #AC130D;
+}
+
+.progress, .type {
+  color: #268bd2 !important;
+}
+
+.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching {
+  background-color: #2bbc8a;
+}
+
+.list-table .list-table-data .data.status.completed {
+  background-color: #268bd2;
+}
+
+.list-table .list-table-data .data.status.dropped {
+  background-color: #AC130D;
+}
+
+.list-table .list-table-data .data.status.plantoread, .list-table .list-table-data .data.status.plantowatch {
+  background-color: #eeeeee;
+}
+
+.list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
+  color: #eeeeee;
+}
+
+.list-table .list-table-data .tags .edit, .list-table-header {
+  color: #ffffff !important;
+}
+
